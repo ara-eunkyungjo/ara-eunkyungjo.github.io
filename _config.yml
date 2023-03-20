@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -108,11 +108,11 @@ author:
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image
   bio              : "Psychology student."
   location         : "Seoul, South Korea"
-  email            : eunkyung.jo@sookmyung.ac.kr
+  email            : 
   links:
-  #  - label: "Email"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-  #    url: eunkyung.jo@sookmyung.ac.kr
+      url: eunkyung.jo@sookmyung.ac.kr
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
