@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Eunkyung(Ara) Jo"
 title_separator          : "-"
-subtitle                 : "Ara's Website"# site tagline that appears below site title in masthead
+subtitle                 : "M.A. in Psychology"# site tagline that appears below site title in masthead
 name                     : "Eunkyung(Ara) Jo"
-description              : "Ara's Website"
+description              : "M.A. in Psychology"
 url                      : "https://ara-eunkyungjo.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : ""# the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -49,9 +49,9 @@ comments:
     category_id          : # Shown during giscus setup at https://giscus.app
     discussion_term      : # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    theme                : "light" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
   staticman:
-    branch               : # "master"
+    branch               : "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
@@ -105,14 +105,14 @@ analytics:
 # Site Author
 author:
   name             : "Eunkyung(Ara) Jo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a Psychology student."
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image
+  bio              : "Psychology student."
   location         : "Seoul, South Korea"
-  email            :
+  email            : eunkyung.jo@sookmyung.ac.kr
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "eunkyung.jo@sookmyung.ac.kr"
+      url: eunkyung.jo@sookmyung.ac.kr
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
