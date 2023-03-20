@@ -20,10 +20,10 @@ foo:
 
 # main links
 main:
-  - title: "Quick-Start Guide"
+  #- title: "Quick-Start Guide"
     url: /docs/quick-start-guide/
   - title: "About"
-    url: /about/
+    url: docs/_pages/about.md
   - title: "Sample Posts"
     url: /year-archive/
   - title: "Sample Collections"
