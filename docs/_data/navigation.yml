@@ -24,6 +24,7 @@ main:
     url: /docs/quick-start-guide/
   - title: "About"
     url: /about/
+    toc: true
   - title: "CV"
     url: /year-archive/
   - title: "Sample Collections"
