@@ -17,8 +17,8 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 # Site Settings
 locale                   : "en-US"
 title                    : "Eunkyung(Ara) Jo"
-title_separator          : "-"
-subtitle                 : "M.A. in Psychology"# site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : "small positive action"# site tagline that appears below site title in masthead
 name                     : "Eunkyung(Ara) Jo"
 description              : "M.A. in Psychology"
 url                      : "https://ara-eunkyungjo.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
