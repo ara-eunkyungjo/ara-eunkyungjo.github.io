@@ -108,11 +108,11 @@ author:
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image
   bio              : "Psychology student."
   location         : "Seoul, South Korea"
-  email            : 
+  email            : eunkyung.jo@sookmyung.ac.kr
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: eunkyung.jo@sookmyung.ac.kr
+      # url: eunkyung.jo@sookmyung.ac.kr
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
