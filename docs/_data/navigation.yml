@@ -23,8 +23,8 @@ main:
   #- title: "Quick-Start Guide"
     url: /docs/quick-start-guide/
   - title: "About"
-    url: /docs/_pages/about.md
-  - title: "Sample Posts"
+    url: /about/
+  - title: "CV"
     url: /year-archive/
   - title: "Sample Collections"
     url: /collection-archive/
