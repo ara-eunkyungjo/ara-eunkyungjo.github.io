@@ -1,21 +1,16 @@
 ---
-layout: categories
-title: "첫번째 블로그입니다!"
-categories: code
+layout: single
+title: "grammar"
+categories: coding, blog
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+  - tag
 ---
 
-Nested and mixed lists are an interesting beast. It's a corner case to make sure that
 
 * Lists within lists do not break the ordered list numbering order
 * Your list styles go deep enough.
 
-# 와~~
+# !!!
 ### Ordered -- Unordered -- Ordered
 
 1. ordered item

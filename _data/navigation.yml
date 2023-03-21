@@ -1,9 +1,11 @@
 # main links
 main:
-  - title: "Category"
+  - title: "Research"
+    url: /research-collection/_docs/
+  - title: "CV"
+    url: /cv/
+  - title: "Blog"
     url: /categories/
-  - title: "About"
-    url: /about/
   # - title: "Sample Posts" 
   #  url: /year-archive/
   # - title: "Sample Collections"
