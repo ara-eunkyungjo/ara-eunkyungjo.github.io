@@ -16,7 +16,7 @@ excerpt: "CV"
 last_modified_at: 2023-03-21T11:59:26-04:00
 toc: true
 ---
-<span style="background-color:PaleGoldenrod; font-size:80%">Full CV is available [here](https://drive.google.com/file/d/1uwqJorqLMrIJfRSn1Ic3oe2e-BZjzZOI/view?usp=share_link){:target="_blank"} !</span>
+<span style="background-color:PaleGoldenrod; font-size:80%">You can Chek full CV [here](https://drive.google.com/file/d/1uwqJorqLMrIJfRSn1Ic3oe2e-BZjzZOI/view?usp=share_link){:target="_blank"} !</span>
 
 ## Edcation
  - M.A. in Criminal Psychology 
