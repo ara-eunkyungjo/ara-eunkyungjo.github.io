@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "첫번째 github 블로그!"
-categories: coding, blog
+categories: coding blog
 tags:
   - tag
 ---
