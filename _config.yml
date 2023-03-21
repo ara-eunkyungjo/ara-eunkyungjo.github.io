@@ -12,17 +12,17 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default"  #'air', 'aqua', 'contrast', 'dark', 'dirt", 'neon', 'mint', 'plum', 'sunrise'
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Eunkyung(Ara) Jo"
 title_separator          : "|"
-subtitle                 : "small positive action"# site tagline that appears below site title in masthead
+subtitle                 : "small positive action" # site tagline that appears below site title in masthead
 name                     : "Eunkyung(Ara) Jo"
 description              : "M.A. in Psychology"
 url                      : "https://ara-eunkyungjo.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : ""# the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/IMG_1795.jpeg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -215,7 +215,7 @@ kramdown:
 collections:
   docs:
     output: true
-    permalink: /research-collection/_docs/
+    permalink: /:collection/:path/
   recipes:
     output: true
     permalink: /:collection/:path/
