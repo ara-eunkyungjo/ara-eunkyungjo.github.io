@@ -1,0 +1,9 @@
+---
+title: "My thoughts and feelings"
+permalinke: /categories/blog/
+layout: category #하나의 카테고리만 보여주므로 단수형으로 작성
+author_profile: true
+taxonomy: blog
+---
+
+# Here's my thoughts and feelins.
