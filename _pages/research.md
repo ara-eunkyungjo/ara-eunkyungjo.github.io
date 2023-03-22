@@ -16,5 +16,5 @@ sidebar_main: false
 - **Jo, E.**, & Park, J. (2021). Difference in the Judgment of Homicide by Offender's Ethnicity and Gender (In Korean). Korean Criminological Review, 32(4), 63-90. 
 
 ## 2020
-- (THESIS) Differences  in  Victim  and  Perpetrator  Blaming  by Crime  Type,  Victim-Perpetrator  Relationship,  and Victim's  Alcohol  Consumption
+- (THESIS) Differences  in  Victim  and  Perpetrator  Blaming  by Crime  Type,  Victim-Perpetrator  Relationship,  and Victim's  Alcohol  Consumption.
 - **Jo, E.**, & Park, J. (2020). Differences of Victim Blaming in Rape and Assault: Mediating Effects of Ambivalent Sexism and Acceptance of Interpersonal Violence (In Korean). Korean Journal of Social and Personality Psychology, 34(1), 45-66.
