@@ -2,7 +2,7 @@
 layout: single
 title: "첫번째 github 블로그!"
 classes: wide
-categories: blog
+categories: Blog
 #tags:
 #  - tag
 #  - blog
