@@ -1,7 +1,7 @@
 ---
 title: "Coding"
-layout: category
-permalink: /categories/coding/
+layout: category-coding
+permalink: /Coding/
 author_profile: true
 sidebar_main: ture
 classes: wide
