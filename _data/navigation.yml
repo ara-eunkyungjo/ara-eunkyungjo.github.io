@@ -5,9 +5,9 @@ main:
   - title: "CV"
     url: /cv/
   - title: "Blog"
-    url: /Blog/
+    url: /categories/Blog/
   - title: "Coding"
-    url: /Coding/
+    url: /categories/Coding/
     
   # - title: "Sample Posts" 
   #  url: /year-archive/
