@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-layout: category-blog  
+layout: category-Blog  
 permalink: /Blog/
 author_profile: true
 sidebar_main: ture

@@ -1,6 +1,6 @@
 ---
 title: "Coding"
-layout: category-coding
+layout: category-Coding
 permalink: /Coding/
 author_profile: true
 sidebar_main: ture
