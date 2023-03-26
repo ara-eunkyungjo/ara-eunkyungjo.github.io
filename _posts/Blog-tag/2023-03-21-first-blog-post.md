@@ -2,10 +2,9 @@
 layout: single
 title: "첫번째 github 블로그!"
 classes: wide
-categories: Blog
-#tags:
-#  - tag
-#  - blog
+#categories: Blog
+tags:
+  - Blog
 ---
 
 포트폴리오용으로 깃허브 블로그 만들어봤는데 너무 재미있다!

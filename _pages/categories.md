@@ -1,9 +1,8 @@
 ---
 title: "Coding"
-layout: category-coding
-permalink: /coding/
+layout: categories  
+permalink: /categories/
 author_profile: true
 sidebar_main: ture
 classes: wide
-taxonomy: Coding
 ---
