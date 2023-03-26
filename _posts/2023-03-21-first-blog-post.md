@@ -3,7 +3,6 @@ layout: single
 title: "첫번째 github 블로그!"
 classes: wide
 categories: Blog
-taxonomy: Blog
 #tags:
 #  - tag
 
