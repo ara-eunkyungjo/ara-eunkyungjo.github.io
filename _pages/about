@@ -1,13 +1,11 @@
 ---
+title: "About"
 layout: single
+permalink: /about/
+author_profile: true
+sidebar_main: ture
 classes: wide
-header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
 ---
-
-
-{{ content }}
-
 
 <h1>Welcome!</h1>
 <p>Hello, my name is Eunkyung, but you can call me Ara. My parents chose the name Ara for me when I was born, and when combined with my last name Jo, it forms the pleasant phrase "I like it!" <br><br>

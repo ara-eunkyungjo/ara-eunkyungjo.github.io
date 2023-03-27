@@ -1,5 +1,7 @@
 # main links
 main:
+  #- title: "About"
+  #  url: /about/
   - title: "Research"
     url: /research/
   - title: "CV"
@@ -14,6 +16,7 @@ main:
         url: /coding/
       - title: "Python"
         url: /python/
+
     
   # - title: "Sample Posts" 
   #  url: /year-archive/
