@@ -15,7 +15,7 @@
   border: 0;
   outline: none;
   color: $primary-color;
-  background-color: transparent;
+  background-color: whitesmoke;
   cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -54,7 +54,7 @@
   }
 
   &__form {
-    background-color: transparent;
+    background-color: whitesmoke;
   }
 
   .search-input {

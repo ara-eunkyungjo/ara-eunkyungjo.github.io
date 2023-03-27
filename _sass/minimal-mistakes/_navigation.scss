@@ -196,7 +196,7 @@
 
     &.site-title {
       margin-left: 0;
-      font-size: 22px;
+      font-size: 30px;
     }
   }
 
@@ -206,7 +206,7 @@
     height: $nav-toggle-height;
     border: 0;
     outline: none;
-    background-color: transparent;
+    background-color: white;
     cursor: pointer;
   }
 
@@ -218,11 +218,11 @@
     box-sizing: border-box;
   }
 
-  .dropdown-content {
+  .dropdown-content { ///드롭다운 박스 디자인
     display: none;
     position: absolute;
     background-color: darken ($background-color, 3%);
-    //min-width: 160px;
+    min-width: 100px;
     box-shadow: $box-shadow;
     z-index: 1;
     box-sizing: border-box;
@@ -233,9 +233,12 @@
     // font-size: 17px
   }
 
-  .dropdown-item {
+  .dropdown-item { /// 드롭다운 박스 내부 항목 디자인 셋팅
     padding: 10px;
     font-size: 15px;
+    background-color: rgb(230, 250, 255);
+    margin: 0;
+    box-shadow: $box-shadow;
   }
 
 

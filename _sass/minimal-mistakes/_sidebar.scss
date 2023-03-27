@@ -256,6 +256,7 @@
   }
 
   @include breakpoint($large) {
+    // profile box setting
     display: block;
     position: relative;
     margin: 0;
