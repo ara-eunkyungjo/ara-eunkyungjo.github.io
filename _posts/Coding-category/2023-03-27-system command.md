@@ -12,12 +12,15 @@ toc: true
 change directory. 폴더 안의 다른 폴더로 들어간다.<br><br>
 
 # 3.   *.*   ,  ..
-cd.. : 상위폴더로 이동<br>
+cd .. : 상위폴더로 이동. cd 뒤에 띄어쓰기를 해야한다.<br>
 . : 현재 디렉토리<br>
-cd. : 그냥 현재 디렉토리에 머물기 <br><br>
+cd . : 그냥 현재 디렉토리에 머물기 <br><br>
 
 # 4. mkdir 
 make directory. 현재 위치에 새로운 폴더 만들기 <br><br>
+```
+mkdir "file-name"
+```
 
 # 5. open.
 폴더 열기 <br><br>
