@@ -184,8 +184,6 @@
     margin: 0 1rem;
     color: $masthead-link-color;
     text-decoration: none;
-    -webkit-transition: none;
-    transition: none;
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -198,12 +196,8 @@
 
     &.site-title {
       margin-left: 0;
+      font-size: 22px;
     }
-  }
-
-  img {
-    -webkit-transition: none;
-    transition: none;
   }
 
   &__toggle {
@@ -216,6 +210,37 @@
     cursor: pointer;
   }
 
+
+  // to be shared by both hidden link and visible link
+  .dropdown {
+    // flot: left;
+    width: auto;
+    box-sizing: border-box;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: darken ($background-color, 3%);
+    //min-width: 160px;
+    box-shadow: $box-shadow;
+    z-index: 1;
+    box-sizing: border-box;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    // font-size: 17px
+  }
+
+  .dropdown-item {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+
+
+  
   .visible-links {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -232,6 +257,8 @@
       -webkit-box-flex: 0;
       -ms-flex: none;
       flex: none;
+      display: list-item;
+      text-align: -webkit-match-parent;
     }
 
     a {
@@ -258,6 +285,7 @@
       }
     }
   }
+
 
   .hidden-links {
     position: absolute;
@@ -321,8 +349,10 @@
         border-bottom: none;
       }
     }
-  }
-}
+
+
+  }//hidden link
+}//greedy-nav
 
 .no-js {
   .greedy-nav {
@@ -518,6 +548,7 @@
     background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
+    border-bottom: 1px solid #f2f3f3;
   }
 
   // Scrollspy marks toc items as .active when they are in focus
@@ -571,3 +602,4 @@
     padding-left: 3.25rem
   }
 }
+

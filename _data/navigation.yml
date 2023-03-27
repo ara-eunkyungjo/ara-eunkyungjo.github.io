@@ -6,8 +6,14 @@ main:
     url: /cv/
   - title: "Blog"
     url: /tags/
-  - title: "Coding"
-    url: /categories/
+  - title: "Study"
+    sublinks:
+      - title: "All Posts"
+        url: /categories/
+      - title: "Coding"
+        url: /coding/
+      - title: "Python"
+        url: /python/
     
   # - title: "Sample Posts" 
   #  url: /year-archive/
