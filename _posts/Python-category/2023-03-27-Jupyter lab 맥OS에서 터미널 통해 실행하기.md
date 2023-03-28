@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Jupyter notebook / lab"
+title: "Jupyter lab 맥OS에서 터미널 통해 실행하기"
 categories: 
     - Python
     - Study
@@ -8,7 +8,7 @@ toc: true
 ---
 
 # 1. 맥OS 터미널을 통해 파이썬 실행하기
-파이썬 버전에 따라서 'python' or 'python3'을 입력한다.<br>
+터미널을 불러와, 파이썬 버전에 따라서 'python' or 'python3'을 입력한다.<br>
 
 ```
 python3
