@@ -13,27 +13,29 @@ excerpt: "CV"
 #  - url: /assets/images/mm-layout-archive.png
 #    image_path: /assets/images/mm-layout-archive.png
 #    alt: "archive layout example"
-last_modified_at: 2023-03-21T11:59:26-04:00
+last_modified_at: 2023-03-28
 toc: true
+toc_sticky: true
+toc_label: curriculum vitae
 ---
 <span style="background-color:PaleGoldenrod; font-size:80%">Full version coming soon!</span>
 
 ## Edcation
- - M.A. in Criminal Psychology 
-    - Psychology and Law/Psychology of Criminal Behavior
-- B.A. in Social Psychology
+**Sookmyung Women's Univeristy**
+ - M.A. in Criminal Psychology (Aug.2020) 
+ - B.A. in Social Psychology (Feb.2018)
 
 ---
 
 ## Publications
-- Jo, E., Seo, K., Nam, B., Shin, D., Kim, S., Jeong, Y., Kim, A., & Kim, Y. (2023). Deterioration of Mental Health in Children and Adolescents during the COVID-19 Pandemic. Journal of Korean Academy of Child and Adolescent Psychiatry, 34(1), 21-29. 
-- Jo, E., & Park, J. (2021). Difference in the Judgment of Homicide by Offender's Ethnicity and Gender (In Korean). Korean Criminological Review, 32(4), 63-90. 
-- Jo, E., & Park, J. (2020). Differences of Victim Blaming in Rape and Assault: Mediating Effects of Ambivalent Sexism and Acceptance of Interpersonal Violence (In Korean). Korean Journal of Social and Personality Psychology, 34(1), 45-66. 
+- **Jo, E.**, Seo, K., Nam, B., Shin, D., Kim, S., Jeong, Y., Kim, A., & Kim, Y. (2023). Deterioration of Mental Health in Children and Adolescents during the COVID-19 Pandemic. Journal of Korean Academy of Child and Adolescent Psychiatry, 34(1), 21-29. 
+- **Jo, E.**, & Park, J. (2021). Difference in the Judgment of Homicide by Offender's Ethnicity and Gender (In Korean). Korean Criminological Review, 32(4), 63-90. 
+- **Jo, E.**, & Park, J. (2020). Differences of Victim Blaming in Rape and Assault: Mediating Effects of Ambivalent Sexism and Acceptance of Interpersonal Violence (In Korean). Korean Journal of Social and Personality Psychology, 34(1), 45-66. 
 
 ---
 
 ## Presentation
-- Jo, E., & Park, J. (Oral Presentation). Differences in Victim and Perpetrator Blaming by Crime Type, Victim-
+- **Jo, E.**, & Park, J. (Oral Presentation). Differences in Victim and Perpetrator Blaming by Crime Type, Victim-
 Perpetrator Relationship, and Victim's Alcohol Consumption. The 14th Biennial Conference of the Asian Association
 
 ---
