@@ -1,7 +1,7 @@
 # main links
 main:
-  #- title: "About"
-  #  url: /about/
+  - title: "About"
+    url: /about/
   - title: "Research"
     url: /research/
   - title: "CV"
@@ -11,7 +11,7 @@ main:
   - title: "Study"
     sublinks:
       - title: "All Posts"
-        url: /categories/
+        url: /study/
       - title: "Coding"
         url: /coding/
       - title: "Python"
