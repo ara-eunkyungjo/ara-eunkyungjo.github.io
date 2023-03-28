@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Eunkyung(Ara) Jo"
   avatar           : /assets/images/IMG_1795.jpeg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "M.A. in Psychology."
+  bio              : "M.A. in Psychology"
   location         : "Seoul, Korea"
   email            : 
   links:
@@ -119,12 +119,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ara-eunkyungjo"
-    - lable: "LinkedIn"
-      icon: "fa fa-linkedin"
-      #url: "https://www.linkedin.com/in/eunkyung-jo-b81553194/"  
-    - lable: "ResearchGate"
-      icon: "fa-brands fa-researchgate"
-      #url: "https://www.researchgate.net/profile/Eunkyung-Jo-2"
+    - label: "Linked In"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/eunkyung-jo-b81553194"  
+    - label: "Research Gate"
+      icon: "fab fa-fw fa-brands fa-researchgate"
+      url: "https://www.researchgate.net/profile/Eunkyung-Jo-2"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
