@@ -1,7 +1,9 @@
 ---
 layout: single
 title: "Jupyter notebook / lab"
-categories: Python
+categories: 
+    - Python
+    - Study
 toc: true
 ---
 
