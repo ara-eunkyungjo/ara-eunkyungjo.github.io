@@ -16,7 +16,7 @@ classes: wide
   <h2>Research Interests</h2>
   My research interests are centered around understanding how people make decisions and judgments, particularly in moral situations. 
   I am also intrigued by the impact of social norms on the moral judgment process. 
-  For my >master's thesis, I conducted research on the topic of victim and perpetrator blaming in various crimes, such as assault, rape, and murder, with the goal of uncovering the fundamental process of blame judgment in criminal cases. <br><br>
+  For my master's thesis, I conducted research on the topic of victim and perpetrator blaming in various crimes, such as assault, rape, and murder, with the goal of uncovering the fundamental process of blame judgment in criminal cases. <br><br>
 
   
   <h2>Working Experiences</h2> 
