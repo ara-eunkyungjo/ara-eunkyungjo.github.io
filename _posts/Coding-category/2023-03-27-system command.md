@@ -3,7 +3,6 @@ layout: single
 title: "System command-Mac Os"
 categories: 
     - Coding
-    - Study
 toc: true
 ---
 
