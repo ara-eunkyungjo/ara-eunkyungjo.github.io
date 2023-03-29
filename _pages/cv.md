@@ -1,5 +1,5 @@
 ---
-title: "CV"
+title: "Curriculum Vitae"
 layout: single
 permalink: /cv/
 excerpt: "CV"
@@ -18,8 +18,11 @@ toc: true
 toc_sticky: true
 toc_label: curriculum vitae
 ---
-<span style="background-color:PaleGoldenrod; font-size:80%">Full version coming soon!</span>
+<br>
+<center><a style="color: darkblue; background: lightyellow" href="#full-version">>>Go Directly to the Full Version<<</a></center>
+<br>
 
+---
 ## Edcation
 **Sookmyung Women's Univeristy**
  - M.A. in Criminal Psychology (Aug.2020) 
@@ -57,3 +60,22 @@ Perpetrator Relationship, and Victim's Alcohol Consumption. The 14th Biennial Co
 ## Invited Talks
 - Research on Vitim and Perpetrator Blaming by Crime Type (Course: Career Development in Psychology). Jun. 2020
 - Analysis of Femininity Presented in K-Pop: Focused on Ga-in’s Song Lyrics (Course: Minority Research). Jun. 2018
+
+---
+## Full Version
+<html>
+    <head>
+    <style>
+        #pdf-container {
+            height: 980px;
+        }
+    </style>
+    </head>
+    <body>
+        <div id="pdf-container">
+            <iframe src="/assets/documents/Eunkyung_CV_Mar29.pdf#toolbar=0&view=FitH" width="100%" height="100%" style="border: 2px solid black;">
+                <p>Your browser does not support iframes.</p>
+            </iframe>
+        </div>
+    </body>
+</html>
