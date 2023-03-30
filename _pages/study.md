@@ -1,6 +1,6 @@
 ---
 title: "All Posts from Study"
-layout: category-study
+layout: categories-exclude-publication
 permalink: /study/
 author_profile: true
 sidebar_main: ture

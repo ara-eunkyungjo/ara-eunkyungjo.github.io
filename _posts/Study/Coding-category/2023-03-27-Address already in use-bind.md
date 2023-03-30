@@ -3,6 +3,7 @@ layout: single
 title: "Address already in use - bind(2): 작동중인 프로세스 강제종료"
 categories: 
     - Error 
+    - Coding
 toc: true
 ---
 

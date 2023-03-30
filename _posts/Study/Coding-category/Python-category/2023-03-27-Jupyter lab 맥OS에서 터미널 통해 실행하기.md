@@ -3,6 +3,7 @@ layout: single
 title: "Jupyter lab 맥OS에서 터미널 통해 실행하기"
 categories: 
     - Python
+    - Coding
 toc: true
 ---
 
