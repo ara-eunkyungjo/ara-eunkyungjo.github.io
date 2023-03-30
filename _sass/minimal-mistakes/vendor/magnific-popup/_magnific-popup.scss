@@ -101,6 +101,7 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   position: fixed;
   outline: none !important;
   -webkit-backface-visibility: hidden; // fixes webkit bug that can cause "false" scrollbar
+          backface-visibility: hidden; /*dart sass로 업데이트 하면서 추가*/
 }
 
 // Root container
@@ -258,6 +259,7 @@ button {
     background: transparent;
     border: 0;
     -webkit-appearance: none;
+            appearance: none; /*dart sass로 업데이트하며 추가*/
     display: block;
     outline: none;
     padding: 0;
