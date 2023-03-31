@@ -25,6 +25,7 @@ layout: default
     {%- assign search_provider = site.search_provider | default: "lunr" -%}
     {%- case search_provider -%}
       {%- when "lunr" -%}
+      <br>
         <input type="text" id="search" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
         <div id="results" class="results"></div>
       {%- when "google" -%}

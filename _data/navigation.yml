@@ -16,6 +16,8 @@ main:
         url: /coding/
       - title: "Statistics"
         url: /statistics/
+  - title: "🔍"
+    url: /search/
 
     
   # - title: "Sample Posts" 
