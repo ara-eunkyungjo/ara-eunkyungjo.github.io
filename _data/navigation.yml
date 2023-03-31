@@ -14,8 +14,8 @@ main:
         url: /study/
       - title: "Coding"
         url: /coding/
-      - title: "Python"
-        url: /python/
+      - title: "Statistics"
+        url: /statistics/
 
     
   # - title: "Sample Posts" 
