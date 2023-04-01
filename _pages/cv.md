@@ -63,6 +63,7 @@ Perpetrator Relationship, and Victim's Alcohol Consumption. The 14th Biennial Co
 
 ---
 ## Full Version
+<p style="text-align: right;"><a href="/assets/documents/Eunkyung_CV_Mar29.pdf" download style="background-color: #F5F6CE">Download the PDF</a></p>
 <html>
     <head>
     <style>
@@ -73,7 +74,7 @@ Perpetrator Relationship, and Victim's Alcohol Consumption. The 14th Biennial Co
     </head>
     <body>
         <div id="pdf-container">
-            <iframe src="/assets/documents/Eunkyung_CV_Mar29.pdf#toolbar=0&view=FitH" width="100%" height="100%" style="border: 2px solid black;">
+            <iframe src="/assets/documents/Eunkyung_CV_Mar29.pdf#toolbar=0&view=FitH" width="100%" height="100%" style="border: 1px solid gray;">
                 <p>Your browser does not support iframes.</p>
             </iframe>
         </div>
