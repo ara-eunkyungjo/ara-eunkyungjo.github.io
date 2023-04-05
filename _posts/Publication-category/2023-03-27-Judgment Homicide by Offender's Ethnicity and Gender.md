@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "*Jo, E.*, & Park, J. (2021). Difference in the Judgment of Homicide by Offender's Ethnicity and Gender (In Korean). Korean Criminological Review, 32(4), 63-90."
-categories: Publication
+categories: [Publication]
 ---
 
 ## Abstract

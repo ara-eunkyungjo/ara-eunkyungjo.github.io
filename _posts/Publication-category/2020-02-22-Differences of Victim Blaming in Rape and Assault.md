@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "*Jo, E.*, & Park, J. (2020). Differences of Victim Blaming in Rape and Assault: Mediating Effects of Ambivalent Sexism and Acceptance of Interpersonal Violence (In Korean). Korean Journal of Social and Personality Psychology, 34(1), 45-66."
-categories: Publication
+categories: [Publication]
 ---
 
 ## Abstract

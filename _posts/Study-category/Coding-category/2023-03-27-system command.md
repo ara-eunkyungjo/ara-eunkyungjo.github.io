@@ -1,8 +1,7 @@
 ---
 layout: single
 title: "System command-Mac Os"
-categories: 
-    - Coding
+categories: [Coding]
 toc: true
 ---
 

@@ -1,9 +1,7 @@
 ---
 layout: single
 title: "Jupyter lab 둘러보기-파이썬 기본문법"
-categories: 
-    - Python
-    - Coding
+categories: [Python,Coding]
 toc: true
 ---
 <br>

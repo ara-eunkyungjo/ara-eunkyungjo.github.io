@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "*Jo, E.*, Seo, K., Nam, B., Shin, D., Kim, S., Jeong, Y., Kim, A., & Kim, Y. (2023). Deterioration of Mental Health in Children and Adolescents during the COVID-19 Pandemic. Journal of Korean Academy of Child and Adolescent Psychiatry, 34(1), 21-29."
-categories: Publication
+categories: [Publication]
 ---
 
 ## Abstract

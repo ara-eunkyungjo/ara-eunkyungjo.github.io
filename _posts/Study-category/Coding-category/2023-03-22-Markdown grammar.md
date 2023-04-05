@@ -1,8 +1,7 @@
 ---
 layout: single
 title: "Markdown grammar"
-categories: 
-  - Coding 
+categories: [Coding] 
 toc: true
 #tags:
 #  - Markdown
