@@ -5,7 +5,7 @@ layout: archive
 {% assign categories_max = 0 %}
 {% assign selected_categories = 'R,Statistics' | split: ',' %}
 {% for category in site.categories %}
-{% if category[0] != 'Publication' and category[1].size > categories_max and selected_categories contains category[0] %}
+{% if category[1].size > categories_max and selected_categories contains category[0] %}
 {% assign categories_max = category[1].size %}
 {% endif %}
 {% endfor %}
@@ -13,7 +13,7 @@ layout: archive
 <ul class="taxonomy__index">
   {% for i in (1..categories_max) reversed %}
     {% for category in site.categories %}
-      {% if category[0] != 'Publication' and category[1].size == i and selected_categories contains category[0] %}
+      {% if category[1].size == i and selected_categories contains category[0] %}
         <li>
           <a href="#{{ category[0] | slugify }}">
             <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
@@ -23,10 +23,11 @@ layout: archive
     {% endfor %}
   {% endfor %}
 </ul>
+
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for i in (1..categories_max) reversed %}
 {% for category in site.categories %}
-{% if category[0] != 'Publication' and category[1].size == i and selected_categories contains category[0] %}
+{% if category[1].size == i and selected_categories contains category[0] %}
 <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
 <h2 class="archive__subtitle">{{ category[0] }}</h2>
 <div class="entries-{{ entries_layout }}">
