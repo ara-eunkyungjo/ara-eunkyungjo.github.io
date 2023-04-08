@@ -1,9 +1,7 @@
 ---
-title: "Python2"
-permalink: /categories/Python/
-layout: category
+title: "Python"
+permalink: /Python/
+layout: category-Python
 author_profile: true
 taxonomy: Python
 ---
-
-ddd
