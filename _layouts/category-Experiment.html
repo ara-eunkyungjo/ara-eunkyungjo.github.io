@@ -3,7 +3,7 @@ layout: archive
 ---
 
 {% assign categories_max = 0 %}
-{% assign selected_categories = 'PsychoPy' | split: ',' %}
+{% assign selected_categories = 'PsychoPy,jsPsych' | split: ',' %}
 {% for category in site.categories %}
 {% if category[1].size > categories_max and selected_categories contains category[0] %}
 {% assign categories_max = category[1].size %}

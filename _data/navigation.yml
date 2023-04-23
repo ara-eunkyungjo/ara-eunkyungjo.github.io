@@ -16,8 +16,8 @@ main:
         url: /coding/
       - title: "Statistics"
         url: /statistics/
-      - title: "PsychoPy"
-        url: /PsychoPy/
+      - title: "Experiment"
+        url: /Experiment/
   - title: "🔍"
     url: /search/
 
