@@ -7,7 +7,6 @@ sidebar_main: ture
 classes: wide
 ---
 
-
 <style>
   * {margin:0;padding:0;box-sizing:border-box;}
   ul, li {list-style:none;}
@@ -164,6 +163,7 @@ classes: wide
       </li>
     </ul> -->
   </div>
+
   
   <h1>Welcome!</h1>
   <p class="p1">Hello, my name is Eunkyung, but you can call me Ara (pronounced like ah-rah). My parents chose the name Ara for me when I was born, and when combined with my last name Jo, in Korean, it forms the pleasant phrase "It's good!". <br><br>

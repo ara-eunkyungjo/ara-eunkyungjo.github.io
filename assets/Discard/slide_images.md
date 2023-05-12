@@ -1,7 +1,3 @@
----
-layout: single
-classes: wide
----
 
 <style>
   * {margin:0;padding:0;box-sizing:border-box;}
@@ -159,20 +155,3 @@ classes: wide
       </li>
     </ul> -->
   </div>
-  
-  <h1>Welcome!</h1>
-  <p class="p1">Hello, my name is Eunkyung, but you can call me Ara (pronounced like ah-rah). My parents chose the name Ara for me when I was born, and when combined with my last name Jo, in Korean, it forms the pleasant phrase "It's good!". <br><br>
-      I majored in Social Psychology for my bachelor's degree and Criminal Psychology for master's degree 
-      in <a href="https://www.sookmyung.ac.kr/sites/sookmyungen/index.do">Sookmyung Women's University</a>.<br><br>
-      I love swimming, learning something new (coding these days), and talking with new people.</p> 
-  
-  <p class="p2"><h2>Research Interests</h2>
-    My research interests are centered around understanding how people make decisions and judgments, particularly in moral situations. 
-    I am also intrigued by the impact of social norms on the moral judgment process. 
-    For my master's thesis, I conducted research on the topic of victim and perpetrator blaming in various crimes, such as assault, rape, and murder, with the goal of uncovering the fundamental process of blame judgment in criminal cases. <br><br>
-  
-    
-  <h2>Working Experiences</h2> 
-    I worked as a research assistant and researcher after my master's studies. 
-    I worked at the <a href="https://www.kicj.re.kr/international/">Korean Institute of Criminology and Justice</a>, where I participated in several projects, including data collection from legal cases of sexual crime and the development of textbooks and guidelines to prevent secondary victimization, which are the result of interaction between moral judgment of individuals and social norms. <br></p>
-  
