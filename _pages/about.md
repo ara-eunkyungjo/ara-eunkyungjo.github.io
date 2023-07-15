@@ -168,8 +168,8 @@ classes: wide
   <h1>Welcome!</h1>
   <p class="p1">Hello, my name is Eunkyung, but you can call me Ara (pronounced like ah-rah). My parents chose the name Ara for me when I was born, and when combined with my last name Jo, in Korean, it forms the pleasant phrase "It's good!". <br><br>
   
-  I am working as a lab manager in <a href="https://sites.lsa.umich.edu/misl/"> Mind in Society Lab</a> at University of Michigan, Ann Arbor, assisting professor <a href="https://sites.google.com/umich.edu/npcamp/">Nick Camp</a>. I majored in social psychology for my bachelor's degree and criminal psychology for master's degree 
-      in <a href="https://www.sookmyung.ac.kr/sites/sookmyungen/index.do">Sookmyung Women's University</a>.<br><br>
+  I am working as a lab manager in <a href="https://sites.lsa.umich.edu/misl/" target="_blank"> Mind in Society Lab</a> at University of Michigan, Ann Arbor, assisting professor <a href="https://sites.google.com/umich.edu/npcamp/" target="_blank">Nick Camp</a>. I majored in social psychology for my bachelor's degree and criminal psychology for master's degree 
+      in <a href="https://www.sookmyung.ac.kr/sites/sookmyungen/index.do" target="_blank">Sookmyung Women's University</a>.<br><br>
       I love swimming, learning something new (coding these days), and talking with new people.</p> 
   
   <p class="p2"><h2>Research Interests</h2>
@@ -180,5 +180,5 @@ classes: wide
     
   <h2>Working Experiences</h2> 
     I worked as a research assistant and researcher after my master's studies. 
-    I worked at the <a href="https://www.kicj.re.kr/international/">Korean Institute of Criminology and Justice</a>, where I participated in several projects, including data collection from legal cases of sexual crime and the development of textbooks and guidelines to prevent secondary victimization, which are the result of interaction between moral judgment of individuals and social norms. <br></p>
+    I worked at the <a href="https://www.kicj.re.kr/international/" target="_blank">Korean Institute of Criminology and Justice</a>, where I participated in several projects, including data collection from legal cases of sexual crime and the development of textbooks and guidelines to prevent secondary victimization, which are the result of interaction between moral judgment of individuals and social norms. <br></p>
   
