@@ -23,7 +23,7 @@ toc_label: curriculum vitae
 <br>
 
 ---
-## Edcation
+## Education
 **Sookmyung Women's Univeristy**
  - M.A. in Criminal Psychology (Aug.2020) 
  - B.A. in Social Psychology (Feb.2018)
