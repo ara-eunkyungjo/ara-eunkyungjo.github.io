@@ -14,8 +14,6 @@ main:
         url: /study/
       - title: "Coding"
         url: /coding/
-      - title: "Statistics"
-        url: /statistics/
       - title: "Experiment"
         url: /Experiment/
   - title: "🔍"
