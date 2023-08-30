@@ -18,9 +18,7 @@ toc: false
 toc_sticky: false
 toc_label: curriculum vitae
 ---
-<br>
-<center><a style="color: darkblue; background: lightyellow" href="#full-version">>>Go Directly to the Full Version<<</a></center>
-<br>
+
 
 ---
 
