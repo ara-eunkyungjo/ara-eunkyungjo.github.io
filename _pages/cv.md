@@ -21,8 +21,6 @@ toc_label: curriculum vitae
 
 
 ---
-
-<p style="text-align: right;"><a href="/assets/documents/Eunkyung_CV_Aug.pdf" download style="background-color: #F5F6CE">Download the PDF</a></p>
 <html>
     <head>
     <style>
@@ -36,6 +34,9 @@ toc_label: curriculum vitae
             <iframe src="/assets/documents/Eunkyung_CV_Aug.pdf#toolbar=0&view=FitH" width="100%" height="100%" style="border: 1px solid gray;">
                 <p>Your browser does not support iframes.</p>
             </iframe>
+        </div>
+        <div>
+        <p style="text-align: right;"><a href="/assets/documents/Eunkyung_CV_Aug.pdf" download style="background-color: #F5F6CE">Download the PDF</a></p>
         </div>
     </body>
 </html>
