@@ -13,7 +13,7 @@ excerpt: "CV"
 #  - url: /assets/images/mm-layout-archive.png
 #    image_path: /assets/images/mm-layout-archive.png
 #    alt: "archive layout example"
-last_modified_at: 2023-08-30
+last_modified_at: 2023-09-09
 toc: false
 toc_sticky: false
 toc_label: curriculum vitae
@@ -31,12 +31,12 @@ toc_label: curriculum vitae
     </head>
     <body>
         <div id="pdf-container">
-            <iframe src="/assets/documents/Eunkyung_CV_Aug.pdf#toolbar=0&view=FitH" width="100%" height="100%" style="border: 1px solid gray;">
+            <iframe src="/assets/documents/Eunkyung_CV_Sep.pdf#toolbar=0&view=FitH" width="100%" height="100%" style="border: 1px solid black;">
                 <p>Your browser does not support iframes.</p>
             </iframe>
         </div>
         <div>
-        <p style="text-align: right;"><a href="/assets/documents/Eunkyung_CV_Aug.pdf" download style="background-color: #F5F6CE">Download the PDF</a></p>
+        <p style="text-align: left;"><a href="/assets/documents/Eunkyung_CV_Sep.pdf" download style="background-color: white">Download the PDF</a></p>
         </div>
     </body>
 </html>
