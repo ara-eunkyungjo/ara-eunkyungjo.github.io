@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "jsPsych 시작하기-CND 방식"
+title: "jsPsych 시작하기"
 categories: [jsPsych]
 toc: true
 ---
