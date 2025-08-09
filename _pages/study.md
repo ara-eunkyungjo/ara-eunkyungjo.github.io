@@ -1,7 +1,7 @@
 ---
-title: "All Posts from Study"
+# title: "All Posts from Notes"
 layout: categories-exclude-publication
-permalink: /study/
+permalink: /notes/
 author_profile: true
 sidebar_main: ture
 classes: wide

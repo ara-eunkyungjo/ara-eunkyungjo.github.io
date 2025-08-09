@@ -6,12 +6,12 @@ main:
     url: /research/
   - title: "CV"
     url: /cv/
-  - title: "Blog"
-    url: /tags/
+  # - title: "Blog"
+  #   url: /tags/
   - title: "Study"
     sublinks:
       - title: "All Posts"
-        url: /study/
+        url: /notes/
       - title: "Coding"
         url: /coding/
       - title: "Experiment"
