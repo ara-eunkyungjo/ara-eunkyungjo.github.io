@@ -1,184 +1,223 @@
 ---
-title: 
+title:
 layout: single
 permalink: /about/
 author_profile: true
-sidebar_main: ture
+sidebar_main: true
 classes: wide
 ---
 
 <style>
-  * {margin:0;padding:0;box-sizing:border-box;}
-  ul, li {list-style:none;}
-  
-  [name="slide"] {display:none;}
-  .slidebox {max-width:300px;width:100%;margin: 10px; float:right; text-align:center;}
-  .slidebox img {max-width:100%;}
-  .slidebox .slidelist {
-    white-space:nowrap;
-    font-size:0;
-    overflow:hidden;
-  }
-  .p1 {margin-right:15; padding-right: 5px}
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  ul, li { list-style: none; }
 
-  .p2 {clear: both}
+  .slidebox {
+    max-width: 400px;
+    padding: 20px;
+    width: 100%;
+    margin: 10px;
+    float: right;
+    text-align: center;
+  }
 
-  .slidebox .slideitem {
-    position:relative;
-    display:inline-block;
-    vertical-align:middle;
-    width:100%;
-    transition:all .35s;
+  .slidelist {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
   }
-  .slidebox .slideitem label {
-    position:absolute;
-    z-index:1;
-    top:50%;
-    transform:translateY(-50%);
-    padding:20px;
-    border-radius:50%;
-    cursor:pointer;
+
+  .slides-track {
+    display: flex;
+    transition: transform 0.35s ease;
+    width: 100%;
   }
-  label.left {
-    left:20px;
-    background-color:#eaeaea 20%;
-    background-image:url('/assets/images/arrow/left-arrow.png');
-    background-position:center center;
-    background-size:50%;
-    background-repeat:no-repeat;
+
+  .slideitem {
+    min-width: 100%;
+    width: 100%;
   }
-  label.right {
-    right:20px;
-    background-color:#eaeaea 20%;
-    background-image:url('/assets/images/arrow/right-arrow.png');
-    background-position:center center;
-    background-size:50%;
-    background-repeat:no-repeat;
+
+  .slide-inner {
+    position: relative;
+    width: 100%;
+    height: 320px; /* 박스 높이 고정 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: None;
   }
-  
-  /* 페이징 스타일 */
-  .paginglist {text-align:center;padding:30px 0;}
-  .paginglist > li {display:inline-block;vertical-align:middle;margin:0 10px;}
-  .paginglist > li > label {display:block;padding:10px 30px;border-radius:10px;background:#ccc;cursor:pointer;}
-  .paginglist > li:hover > label {background:#333;}
-  
-  [id="slide01"]:checked ~ .slidelist .slideitem {transform:translateX(0);animation:slide01 20s infinite;}
-  [id="slide02"]:checked ~ .slidelist .slideitem {transform:translateX(-100%);animation:slide02 20s infinite;}
-  [id="slide03"]:checked ~ .slidelist .slideitem {transform:translateX(-200%);animation:slide03 20s infinite;}
-  [id="slide04"]:checked ~ .slidelist .slideitem {transform:translateX(-300%);animation:slide04 20s infinite;}
-  
-  @keyframes slide01 {
-    0% {left:0%;}
-    23% {left:0%;}
-    25% {left:-100%;}
-    48% {left:-100%;}
-    50% {left:-200%;}
-    73% {left:-200%;}
-    75% {left:-300%;}
-    98% {left:-300%;}
-    100% {left:0%;}
+
+  .slide-inner img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
   }
-  @keyframes slide02 {
-    0% {left:0%;}
-    23% {left:0%;}
-    25% {left:-100%;}
-    48% {left:-100%;}
-    50% {left:-200%;}
-    73% {left:-200%;}
-    75% {left:100%;}
-    98% {left:100%;}
-    100% {left:0%;}
+
+  .nav-btn {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(234, 234, 234, 0.85);
+    background-position: center center;
+    background-size: 50%;
+    background-repeat: no-repeat;
   }
-  @keyframes slide03 {
-    0% {left:0%;}
-    23% {left:0%;}
-    25% {left:-100%;}
-    48% {left:-100%;}
-    50% {left:200%;}
-    73% {left:200%;}
-    75% {left:100%;}
-    98% {left:100%;}
-    100% {left:0%;}
+
+  .nav-btn.left {
+    left: 10px;
+    background-image: url('/assets/images/arrow/left-arrow.png');
   }
-  @keyframes slide04 {
-    0% {left:0%;}
-    23% {left:0%;}
-    25% {left:300%;}
-    48% {left:300%;}
-    50% {left:200%;}
-    73% {left:200%;}
-    75% {left:100%;}
-    98% {left:100%;}
-    100% {left:0%;}
+
+  .nav-btn.right {
+    right: 10px;
+    background-image: url('/assets/images/arrow/right-arrow.png');
   }
-  </style>
-  
-  <div class="slidebox">
-    <input type="radio" name="slide" id="slide01" checked>
-    <input type="radio" name="slide" id="slide02">
-    <input type="radio" name="slide" id="slide03">
-    <input type="radio" name="slide" id="slide04">
-    <ul class="slidelist">
-      <li class="slideitem">
-        <div>
-          <label for="slide04" class="left"></label>
-          <label for="slide02" class="right"></label>
-          <a><img src="/assets/images/IMG_0706.jpeg"></a>
-        </div>
-      </li>
-      <li class="slideitem">
-        <div>
-          <label for="slide01" class="left"></label>
-          <label for="slide03" class="right"></label>
-          <a><img src="/assets/images/IMG_8532.JPG"></a>
-        </div>
-      </li>
-      <li class="slideitem">
-        <div>
-          <label for="slide02" class="left"></label>
-          <label for="slide04" class="right"></label>
-          <a><img src="/assets/images/IMG_6526.jpeg"></a>
-        </div>
-      </li>
-      <li class="slideitem">
-        <div>
-          <label for="slide03" class="left"></label>
-          <label for="slide01" class="right"></label>
-          <a><img src="/assets/images/IMG_8157.jpeg"></a>
-        </div>
-      </li>
-    </ul>
-    <!-- <ul class="paginglist">
-      <li>
-        <label for="slide01"></label>
-      </li>
-      <li>
-        <label for="slide02"></label>
-      </li>
-      <li>
-        <label for="slide03"></label>
-      </li>
-      <li>
-        <label for="slide04"></label>
-      </li>
-    </ul> -->
+
+  .dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background: #cfcfcf;
+    cursor: pointer;
+  }
+
+  .dot.active {
+    background: #666;
+  }
+
+  .p1 {
+    margin-right: 15px;
+    padding-right: 5px;
+  }
+
+  .p2 {
+    clear: both;
+  }
+
+  @media (max-width: 768px) {
+    .slidebox {
+      float: none;
+      margin: 10px auto 20px auto;
+    }
+  }
+</style>
+
+<div class="slidebox">
+  <div class="slidelist">
+    <div class="slides-track" id="slides-track"></div>
+    <button class="nav-btn left" id="prev-btn" type="button" aria-label="Previous image"></button>
+    <button class="nav-btn right" id="next-btn" type="button" aria-label="Next image"></button>
   </div>
+  <div class="dots" id="dots"></div>
+</div>
 
+<h1>Welcome!</h1>
+<p class="p1">
+  Hello! My name is Eunkyung (은경 恩卿), and I go by Ara (pronounced "ah-rah"). "Ara" is the name my parents originally chose for me at birth, and when combined with my last name, Jo, it forms a pleasant phrase in Korean meaning "It's good!" or "I like it!" <br><br>
+
+  I am currently working as a lab manager in the <a href="https://sites.lsa.umich.edu/misl/" target="_blank">Mind in Society Lab</a> at the University of Michigan, assisting <a href="https://sites.google.com/umich.edu/npcamp/" target="_blank">Dr. Nick Camp</a>. I majored in social psychology for my bachelor's degree and earned a master's degree in criminal psychology from <a href="https://www.sookmyung.ac.kr/sites/sookmyungen/index.do" target="_blank">Sookmyung Women's University</a>.<br><br>
+
+  I love trying and learning new things! Over the past few years since moving to the U.S., I’ve tried several things, including skateboarding, crochet, and sewing... and these days, I’m building the ultimate cat toy using electronic parts from Amazon!
+</p>
+
+<div class="p2">
+  <h2>Research Interests</h2>
+  <p>
+    My research interests are centered on understanding how people make decisions and judgments, particularly in moral situations.
+    I am also intrigued by the impact of social norms on the moral judgment process.
+    For my master's thesis, I conducted research on the topic of victim and perpetrator blaming in various crimes, such as assault, rape, and murder, with the goal of uncovering the fundamental process of blame judgment in criminal cases.
+  </p>
   
-  <h1>Welcome!</h1>
-  <p class="p1">Hello, my name is Eunkyung, but you can call me Ara (pronounced like ah-rah). My parents chose the name Ara for me when I was born, and when combined with my last name Jo, in Korean, it forms the pleasant phrase "It's good!". <br><br>
-  
-  I am working as a lab manager in <a href="https://sites.lsa.umich.edu/misl/" target="_blank"> Mind in Society Lab</a> at University of Michigan, Ann Arbor, assisting professor <a href="https://sites.google.com/umich.edu/npcamp/" target="_blank">Nick Camp</a>. I majored in social psychology for my bachelor's degree and earned master's degree with criminal psychology in <a href="https://www.sookmyung.ac.kr/sites/sookmyungen/index.do" target="_blank">Sookmyung Women's University</a>.<br><br>
-  
-  I love swimming, riding a bike, and trying something new (sewing these days).</p> 
-  
-  <p class="p2"><h2>Research Interests</h2>
-    My research interests are centered on understanding how people make decisions and judgments, particularly in moral situations. 
-    I am also intrigued by the impact of social norms on the moral judgment process. 
-    For my master's thesis, I conducted research on the topic of victim and perpetrator blaming in various crimes, such as assault, rape, and murder, with the goal of uncovering the fundamental process of blame judgment in criminal cases. <br><br>
-  
-    
-  <h2>Working Experiences</h2> 
-    I worked as a researcher for few years after my master's studies. 
-    I worked at the <a href="https://www.kicj.re.kr/international/" target="_blank">Korean Institute of Criminology and Justice</a>, where I participated in several projects, including data collection from legal cases of sexual crime and the development of textbooks and guidelines to prevent secondary victimization, which are the consequence of interaction between moral judgment of individuals and social norms. <br></p>
-  
+
+  <!-- <h2>Working Experiences</h2>
+  <p>
+    I worked as a researcher for few years after my master's studies.
+    I worked at the <a href="https://www.kicj.re.kr/international/" target="_blank">Korean Institute of Criminology and Justice</a>, where I participated in several projects, including data collection from legal cases of sexual crime and the development of textbooks and guidelines to prevent secondary victimization, which are the consequence of interaction between moral judgment of individuals and social norms.
+  </p> -->
+</div>
+
+<script>
+  const images = [
+    "/assets/images/2026HWF-Team 7-WEB-2.jpg",
+    "/assets/images/jspsychHackathon2025.jpg",
+    // "/assets/images/IMG_8532.JPG",
+    // "/assets/images/IMG_6526.jpeg",
+    // "/assets/images/IMG_8157.jpeg",
+  ];
+
+  const slidesTrack = document.getElementById("slides-track");
+  const dotsContainer = document.getElementById("dots");
+  const prevBtn = document.getElementById("prev-btn");
+  const nextBtn = document.getElementById("next-btn");
+
+  let currentIndex = 0;
+
+  function renderSlider() {
+    slidesTrack.innerHTML = "";
+    dotsContainer.innerHTML = "";
+
+    images.forEach((src, index) => {
+      const slide = document.createElement("div");
+      slide.className = "slideitem";
+      slide.innerHTML = `
+        <div class="slide-inner">
+          <img src="${src}" alt="Slide ${index + 1}">
+        </div>
+      `;
+      slidesTrack.appendChild(slide);
+
+      const dot = document.createElement("button");
+      dot.className = "dot";
+      dot.type = "button";
+      dot.setAttribute("aria-label", `Go to slide ${index + 1}`);
+      dot.addEventListener("click", () => {
+        currentIndex = index;
+        updateSlider();
+      });
+      dotsContainer.appendChild(dot);
+    });
+
+    updateSlider();
+  }
+
+  function updateSlider() {
+    slidesTrack.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+    const dots = dotsContainer.querySelectorAll(".dot");
+    dots.forEach((dot, index) => {
+      dot.classList.toggle("active", index === currentIndex);
+    });
+  }
+
+  function goPrev() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateSlider();
+  }
+
+  function goNext() {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateSlider();
+  }
+
+  prevBtn.addEventListener("click", goPrev);
+  nextBtn.addEventListener("click", goNext);
+
+  renderSlider();
+</script>

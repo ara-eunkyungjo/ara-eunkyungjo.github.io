@@ -8,16 +8,16 @@ main:
     url: /cv/
   # - title: "Blog"
   #   url: /tags/
-  - title: "Study"
-    sublinks:
-      - title: "All Posts"
-        url: /notes/
-      - title: "Coding"
-        url: /coding/
-      - title: "Experiment"
-        url: /Experiment/
-  - title: "🔍"
-    url: /search/
+  # - title: "Study"
+  #   sublinks:
+  #     - title: "All Posts"
+  #       url: /notes/
+  #     - title: "Coding"
+  #       url: /coding/
+  #     - title: "Experiment"
+  #       url: /Experiment/
+  # - title: "🔍"
+  #   url: /search/
 
     
   # - title: "Sample Posts" 

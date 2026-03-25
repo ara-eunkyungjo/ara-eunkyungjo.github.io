@@ -3,40 +3,22 @@ title: "Curriculum Vitae"
 layout: single
 permalink: /cv/
 excerpt: "CV"
-#layouts_gallery:
-#  - url: /assets/images/mm-layout-splash.png
-#    image_path: /assets/images/mm-layout-splash.png
-#    alt: "splash layout example"
-#  - url: /assets/images/mm-layout-single-meta.png
-#    image_path: /assets/images/mm-layout-single-meta.png
-#    alt: "single layout with comments and related posts"
-#  - url: /assets/images/mm-layout-archive.png
-#    image_path: /assets/images/mm-layout-archive.png
-#    alt: "archive layout example"
-last_modified_at: 2025-08-09
+last_modified_at: 2026-03-24
 toc: false
 toc_sticky: false
 toc_label: curriculum vitae
+current_cv: /assets/documents/cv_EunkyungAraJo_20260317.pdf
 ---
 
+<div id="pdf-viewer" style="height: 50em; width: 120%;"></div>
 
----
-<html>
-    <head>
-    <style>
-        #pdf-container {
-            height: 980px;
-        }
-    </style>
-    </head>
-    <body>
-        <div id="pdf-container">
-            <iframe src="/assets/documents/cv_AraJo_Aug8_25.pdf#toolbar=0&view=FitH" width="100%" height="100%" style="border: 1px solid black;">
-                <p>Your browser does not support iframes.</p>
-            </iframe>
-        </div>
-        <div>
-        <p style="text-align: left;"><a href="/assets/documents/Eunkyung_CV_Sep.pdf" download style="background-color: white">Download the PDF</a></p>
-        </div>
-    </body>
-</html>
+<script type="module">
+  import EmbedPDF from 'https://cdn.jsdelivr.net/npm/@embedpdf/snippet@2/dist/embedpdf.js';
+
+  EmbedPDF.init({
+    type: 'container',
+    target: document.getElementById('pdf-viewer'),
+    src: '{{ page.current_cv }}',
+    theme: { preference: 'system' }
+  });
+</script>
